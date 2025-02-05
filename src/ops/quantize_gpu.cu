@@ -112,7 +112,5 @@ namespace ctranslate2 {
 
     DECLARE_IMPL(float)
     DECLARE_IMPL(float16_t)
-    DECLARE_IMPL(bfloat16_t)
-
   }
 }
