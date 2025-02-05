@@ -30,7 +30,7 @@
         throw std::invalid_argument("FP16 " NAME " is only supported on GPU"); \
       constexpr Device D = Device::CUDA;                                \
       (STMTS);                                                          \
-    })         
+    })         \
     NON_FLOAT_CASE(NAME)                                                \
   }
 
